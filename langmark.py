@@ -13,13 +13,22 @@ if len(sys.argv) >= 2:
 output = dict()
 benchmarks = json.loads(open("benchmarks.json", "r").read())
 for benchmark in benchmarks:
+    if len(sys.argv) >= 3:
+        if sys.argv[2] != benchmark:
+            continue
     output[benchmark] = dict()
     langs = json.loads(open(benchmark + "/languages.json", "r").read())
     for lang in langs:
+        if len(sys.argv) >= 4:
+            if sys.argv[3] != lang:
+                continue
         output[benchmark][lang] = list()
         commands = json.loads(open(benchmark + "/" + lang + "/commands.json", "r").read())
         wd = benchmark + "/" + lang + "/"
         for command in commands:
+            if len(sys.argv) >= 5:
+                if sys.argv[4] != command["name"]:
+                    continue
             print(benchmark + " | " + lang + " -> " + command["name"] + ": ", flush=True, end='')
             script = wd + command["script"]
             subprocess.call(["/bin/bash", script, "pre_exec"])
