@@ -29,6 +29,10 @@ for benchmark in benchmarks:
             if len(sys.argv) >= 5:
                 if sys.argv[4] != command["name"]:
                     continue
+            subprocess.call(["/bin/bash", script, "version"])
+            version_string = open(wd + "version.out", "r").read()
+            if version_string == "":
+                continue
             print(benchmark + " | " + lang + " -> " + command["name"] + ": ", flush=True, end='')
             script = wd + command["script"]
             subprocess.call(["/bin/bash", script, "pre_exec"])
@@ -40,8 +44,6 @@ for benchmark in benchmarks:
                 time_num += 1
                 time_sum += float(open(wd + "time.out", "r").read())
                 print(".", flush=True, end='')
-            subprocess.call(["/bin/bash", script, "version"])
-            version_string = open(wd + "version.out", "r").read()
             result = open(wd + "print.out", "r").read().strip("\n")
             print(" result:", result, "-", "time:", round(time_sum / time_num, 3), flush=True)
             subprocess.call(["/bin/bash", script, "clean"])
