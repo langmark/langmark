@@ -1,0 +1,6 @@
+[
+    {
+        "name" : "OpenJDK",
+        "script" : "openjdk.sh"
+    }
+]
