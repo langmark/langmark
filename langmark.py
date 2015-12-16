@@ -29,12 +29,12 @@ for benchmark in benchmarks:
             if len(sys.argv) >= 5:
                 if sys.argv[4] != command["name"]:
                     continue
+            script = wd + command["script"]
             subprocess.call(["/bin/bash", script, "version"])
             version_string = open(wd + "version.out", "r").read()
             if version_string == "":
                 continue
             print(benchmark + " | " + lang + " -> " + command["name"] + ": ", flush=True, end='')
-            script = wd + command["script"]
             subprocess.call(["/bin/bash", script, "pre_exec"])
             subprocess.call(["/bin/bash", script, "print_exec"])
             time_sum = 0.0
