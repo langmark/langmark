@@ -1,8 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
+#include <cstdlib>
+#include <iostream>
 
 #define N 512
+
+using namespace std;
 
 int matrix[3][N][N];
 
@@ -40,6 +41,6 @@ int main(int argc, char* argv[])
     }
     if(!print_value)
         return EXIT_SUCCESS;
-    printf("%d\n", sum);
+    cout << sum << endl;
     return EXIT_SUCCESS;
 }
