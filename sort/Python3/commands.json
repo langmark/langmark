@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "CPython",
+        "script" : "cpython.sh"
+    },
+    {
+        "name" : "PyPy",
+        "script" : "pypy.sh"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "GCC",
+        "script" : "gcc.sh"
+    },
+    {
+        "name" : "Clang",
+        "script" : "clang.sh"
+    }
+]
