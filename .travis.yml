@@ -1,0 +1,20 @@
+language: bash
+sudo: required
+script: ./script.sh
+before_install:
+  - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+  - sudo add-apt-repository ppa:fkrull/deadsnakes -y
+  - sudo apt-get update -qq
+  - sudo apt-get install -y python3.4 g++-5 tcc valac
+  - ls -l /usr/bin
+  - ls -l /usr/bin/gcc* /usr/bin/g++*
+  - sudo rm -f /usr/bin/gcc /usr/bin/g++ /usr/bin/python3
+  - sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
+  - sudo ln -s /usr/bin/g++-5 /usr/bin/g++
+  - sudo ln -s /usr/bin/python3.4 /usr/bin/python3
+  - gcc --version
+  - g++ --version
+  - python3 --version
+branches:
+  only:
+    - master
