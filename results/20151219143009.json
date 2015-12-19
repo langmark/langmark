@@ -1,0 +1,54 @@
+{
+    "matrix": {
+        "C": [
+            {
+                "version": "gcc (Ubuntu 5.2.1-23ubuntu1~12.04) 5.2.1 20151031\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+                "name": "GCC",
+                "time": 0.335
+            },
+            {
+                "version": "clang version 3.4 (tags/RELEASE_34/final)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\n",
+                "name": "Clang",
+                "time": 0.347
+            },
+            {
+                "version": "tcc version 0.9.25\n",
+                "name": "TCC",
+                "time": 1.617
+            }
+        ],
+        "Python3": [
+            {
+                "version": "Python 3.4.3\n",
+                "name": "CPython",
+                "time": 76.27
+            }
+        ],
+        "C++": [
+            {
+                "version": "g++ (Ubuntu 5.2.1-23ubuntu1~12.04) 5.2.1 20151031\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+                "name": "GCC",
+                "time": 0.332
+            },
+            {
+                "version": "clang version 3.4 (tags/RELEASE_34/final)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\n",
+                "name": "Clang",
+                "time": 0.347
+            }
+        ],
+        "Vala": [
+            {
+                "version": "Vala 0.14.2\n",
+                "name": "Vala",
+                "time": 0.344
+            }
+        ],
+        "Java": [
+            {
+                "version": "javac 1.7.0_80\njava version \"1.7.0_80\"\nJava(TM) SE Runtime Environment (build 1.7.0_80-b15)\nJava HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)\n",
+                "name": "OpenJDK",
+                "time": 0.339
+            }
+        ]
+    }
+}
