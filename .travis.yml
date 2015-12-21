@@ -15,6 +15,7 @@ arch:
         - vala
         # VisualBasic/C#
         - mono
+        - mono-basic
         # common
         - time
         # stuff...
