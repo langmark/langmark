@@ -1,0 +1,130 @@
+{
+    "matrix": {
+        "C++": [
+            {
+                "time": 0.33,
+                "version": "g++ (GCC) 5.3.0\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+                "name": "GCC"
+            },
+            {
+                "time": 0.341,
+                "version": "clang version 3.7.0 (tags/RELEASE_370/final)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\n",
+                "name": "Clang"
+            }
+        ],
+        "Java": [
+            {
+                "time": 0.341,
+                "version": "javac 1.8.0_66\nopenjdk version \"1.8.0_66\"\nOpenJDK Runtime Environment (build 1.8.0_66-b17)\nOpenJDK 64-Bit Server VM (build 25.66-b17, mixed mode)\n",
+                "name": "OpenJDK"
+            }
+        ],
+        "Vala": [
+            {
+                "time": 0.341,
+                "version": "Vala 0.30.0\n",
+                "name": "Vala"
+            }
+        ],
+        "Python3": [
+            {
+                "time": 88.78,
+                "version": "Python 3.5.1\n",
+                "name": "CPython"
+            },
+            {
+                "time": 3.232,
+                "version": "Python 3.2.5 (b2091e973da69152b3f928bfaabd5d2347e6df46, Sep 10 2015, 00:16:16)\n[PyPy 2.4.0 with GCC 5.2.0]\n",
+                "name": "PyPy"
+            }
+        ],
+        "C": [
+            {
+                "time": 0.331,
+                "version": "gcc (GCC) 5.3.0\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+                "name": "GCC"
+            },
+            {
+                "time": 0.345,
+                "version": "clang version 3.7.0 (tags/RELEASE_370/final)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\n",
+                "name": "Clang"
+            },
+            {
+                "time": 1.594,
+                "version": "tcc version 0.9.26 (x86-64 Linux)\n",
+                "name": "TCC"
+            }
+        ]
+    },
+    "sort": {
+        "C++": [
+            {
+                "time": 0.264,
+                "version": "g++ (GCC) 5.3.0\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+                "name": "GCC"
+            },
+            {
+                "time": 0.241,
+                "version": "clang version 3.7.0 (tags/RELEASE_370/final)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\n",
+                "name": "Clang"
+            }
+        ],
+        "Java": [
+            {
+                "time": 2.88,
+                "version": "javac 1.8.0_66\nopenjdk version \"1.8.0_66\"\nOpenJDK Runtime Environment (build 1.8.0_66-b17)\nOpenJDK 64-Bit Server VM (build 25.66-b17, mixed mode)\n",
+                "name": "OpenJDK"
+            }
+        ],
+        "Vala": [
+            {
+                "time": 0.49,
+                "version": "Vala 0.30.0\n",
+                "name": "Vala"
+            }
+        ],
+        "C#": [
+            {
+                "time": 0.808,
+                "version": "Mono C# compiler version 4.2.1.0\nMono JIT compiler version 4.2.1 (Stable 4.2.1.102/6dd2d0d Sun Nov 29 17:03:57 UTC 2015)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tLLVM:          supported, not enabled.\n\tGC:            sgen\n",
+                "name": "Mono"
+            }
+        ],
+        "C": [
+            {
+                "time": 0.494,
+                "version": "gcc (GCC) 5.3.0\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+                "name": "GCC"
+            },
+            {
+                "time": 0.486,
+                "version": "clang version 3.7.0 (tags/RELEASE_370/final)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\n",
+                "name": "Clang"
+            },
+            {
+                "time": 0.678,
+                "version": "tcc version 0.9.26 (x86-64 Linux)\n",
+                "name": "TCC"
+            }
+        ],
+        "VisualBasic.NET": [
+            {
+                "time": 0.819,
+                "version": "Visual Basic.Net Compiler version 0.0.0.5943 (Mono 4.0.1 - tarball)\nMono JIT compiler version 4.2.1 (Stable 4.2.1.102/6dd2d0d Sun Nov 29 17:03:57 UTC 2015)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tLLVM:          supported, not enabled.\n\tGC:            sgen\n",
+                "name": "Mono"
+            }
+        ],
+        "Python3": [
+            {
+                "time": 3.777,
+                "version": "Python 3.5.1\n",
+                "name": "CPython"
+            },
+            {
+                "time": 4.347,
+                "version": "Python 3.2.5 (b2091e973da69152b3f928bfaabd5d2347e6df46, Sep 10 2015, 00:16:16)\n[PyPy 2.4.0 with GCC 5.2.0]\n",
+                "name": "PyPy"
+            }
+        ]
+    }
+}
