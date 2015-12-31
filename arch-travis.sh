@@ -29,7 +29,7 @@ user_home="/home/$user"
 user_uid=$UID
 
 # default packages
-default_packages=("base-devel" "ruby" "git")
+default_packages=("base" "base-devel" "ruby" "git" "pacman")
 
 # pacman.conf repository line
 repo_line=70
@@ -203,7 +203,6 @@ setup_pacaur() {
   chroot_as_normal "cower -dd pacaur"
   chroot_as_normal "cd pacaur && makepkg -is --noconfirm"
   chroot_as_normal "rm -rf pacaur"
-  as_root "pacman-key -r 7463A81A4B2EEA1B551FFBCFD441C977412B37AD" # for Swift
 }
 
 # install package through pacaur
@@ -267,6 +266,7 @@ build_scripts() {
 
 # install packages defined in .travis.yml
 install_packages() {
+  as_root "pacman-key -r 7463A81A4B2EEA1B551FFBCFD441C977412B37AD" # for Swift
   local valid=$(check_travis_yml arch packages)
   if [ $valid -eq 0 ]; then
     _pacaur $(travis_yml arch packages)
