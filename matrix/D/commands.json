@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "GCC",
+        "script" : "gcc.sh"
+    },
+    {
+        "name" : "LDC",
+        "script" : "ldc.sh"
+    },
+    {
+        "name" : "DMD",
+        "script" : "dmd.sh"
+    }
+]
