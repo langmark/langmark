@@ -16,6 +16,8 @@ arch:
         # VisualBasic/C#
         - mono
         - mono-basic
+        # JavaScript
+        - nodejs
         # common
         - time
         # stuff...

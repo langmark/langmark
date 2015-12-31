@@ -1,0 +1,6 @@
+[
+    {
+        "name" : "NodeJS",
+        "script" : "node.sh"
+    }
+]
