@@ -266,7 +266,7 @@ build_scripts() {
 
 # install packages defined in .travis.yml
 install_packages() {
-  as_root "pacman-key -r 7463A81A4B2EEA1B551FFBCFD441C977412B37AD" # for Swift
+  gpg --recv-keys 7463A81A4B2EEA1B551FFBCFD441C977412B37AD # for Swift
   local valid=$(check_travis_yml arch packages)
   if [ $valid -eq 0 ]; then
     _pacaur $(travis_yml arch packages)
