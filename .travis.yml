@@ -23,16 +23,7 @@ arch:
         - ldc
         - dmd
         # Swift
-        - swift-bin
-        - icu55
-        - libbsd
-        - libedit
-        - libtinfo
-        - libutil-linux
-        - libxml2
-        - ncurses5-compat-libs
-        - python2
-        - python2-six
+        - swift-language-git
         # common
         - time
         # stuff...

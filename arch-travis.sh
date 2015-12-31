@@ -266,8 +266,6 @@ build_scripts() {
 
 # install packages defined in .travis.yml
 install_packages() {
-  chroot_as_normal "gpg --recv-keys D441C977412B37AD" # for Swift
-  chroot_as_normal "gpg --recv-keys 702353E0F7E48EDB" # for ncurses
   local valid=$(check_travis_yml arch packages)
   if [ $valid -eq 0 ]; then
     _pacaur $(travis_yml arch packages)
