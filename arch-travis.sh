@@ -277,12 +277,12 @@ install_packages() {
 }
 
 setup_chroot
-
+echo "Installing packages..."
 install_packages
-
+echo "Copying working directory..."
 copy_cwd
 
-echo ":: Running travis build..."
+echo "Running travis build..."
 build_scripts
 
 takedown_chroot
