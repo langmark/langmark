@@ -203,6 +203,7 @@ setup_pacaur() {
   chroot_as_normal "cower -dd pacaur"
   chroot_as_normal "cd pacaur && makepkg -is --noconfirm"
   chroot_as_normal "rm -rf pacaur"
+  as_root "pacman-key -r 7463A81A4B2EEA1B551FFBCFD441C977412B37AD" # for Swift
 }
 
 # install package through pacaur
