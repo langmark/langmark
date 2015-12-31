@@ -22,6 +22,8 @@ arch:
         - gdc
         - ldc
         - dmd
+        # Swift
+        - swift-bin
         # common
         - time
         # stuff...
