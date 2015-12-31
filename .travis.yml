@@ -24,6 +24,17 @@ arch:
         - dmd
         # Swift
         - swift-language-git
+        - icu
+        - libbsd
+        - libedit
+        - libxml2
+        - ncurses
+        - python2
+        - swig
+        - clang
+        - cmake
+        - git
+        - ninja
         # common
         - time
         # stuff...
