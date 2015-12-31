@@ -36,13 +36,15 @@ repo_line=70
 
 # setup working Arch Linux chroot
 setup_chroot() {
-  echo ":: Setting up Arch chroot..."
+  echo "Setting up Arch chroot..."
 
   if [ ! -f $archive ]; then
     # get root fs
     as_normal "curl -O $ARCH_TRAVIS_MIRROR/iso/$ARCH_TRAVIS_ARCH_ISO/$archive"
   fi
-
+  
+  echo "Downloaded Arch ISO..."
+  
   # extract root fs
   as_root "tar xf $archive"
 
@@ -73,6 +75,8 @@ setup_chroot() {
   # update packages
   chroot_as_root "pacman -Syy"
   chroot_as_root "pacman -Syu ${default_packages[*]} --noconfirm"
+
+  echo "Updated Arch packages..."
 
   # use LANG=en_US.UTF-8 as expected in travis environments
   sudo sed -i "s|#en_US.UTF-8|en_US.UTF-8|" $ARCH_TRAVIS_CHROOT/etc/locale.gen
