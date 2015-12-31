@@ -18,6 +18,10 @@ arch:
         - mono-basic
         # JavaScript
         - nodejs
+        # D
+        - gdc
+        - ldc
+        - dmd
         # common
         - time
         # stuff...
