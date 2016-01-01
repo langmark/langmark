@@ -5,7 +5,7 @@ import subprocess
 import datetime
 import sys
 
-time_wall = 10.0
+time_wall = 30.0
 
 if len(sys.argv) >= 2:
     time_wall = float(sys.argv[1])
