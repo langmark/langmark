@@ -9,6 +9,8 @@ arch:
         - tcc
         # Python
         - pypy3
+        - python
+        - python2
         # Java
         - jdk8-openjdk
         # Vala
@@ -23,16 +25,15 @@ arch:
         - ldc
         - dmd
         # Swift
-        - swift-language-git
-        - icu
-        - libbsd
-        - libedit
-        - libxml2
-        - ncurses
-        - python2
-        - swig
-        - clang
-        - cmake
+        #- swift-language-git
+        #- icu
+        #- libbsd
+        #- libedit
+        #- libxml2
+        #- ncurses
+        #- swig
+        #- clang
+        #- cmake
         - git
         - ninja
         # common
