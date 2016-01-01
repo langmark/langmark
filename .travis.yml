@@ -27,6 +27,8 @@ arch:
         - gdc
         - ldc
         - dmd
+        # Nim
+        - nim
         # Swift
         #- swift-language-git
         #- icu
