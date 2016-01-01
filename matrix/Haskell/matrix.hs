@@ -13,7 +13,7 @@ main = let  m1 = genMat seed
             r = [0 .. n - 1]
             m :: UArray (Int, Int) Int
             m = array ((0, 0), (n - 1, n - 1)) [((i, j), sum [m1 ! (i, k) * m2 ! (k, j) | k <- r] `mod` mds2) | i <- r, j <- r]
-            s = (`mod` mds2) . sum . map (uncurry (*) . (first $ (`mod` mds1) . uncurry (*))) $ assocs m
+            s = (`mod` mds2) . sum . map (\((i, j), v) -> (i * j `mod` mds1) * v) $ assocs m
         in
             m `seq` getArgs >>= (flip when) (print s) . not . null
 
