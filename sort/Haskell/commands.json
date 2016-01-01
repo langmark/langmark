@@ -1,0 +1,6 @@
+[
+    {
+        "name" : "GHC",
+        "script" : "ghc.sh"
+    }
+]

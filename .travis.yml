@@ -29,6 +29,8 @@ arch:
         - dmd
         # Nim
         - nim
+        # Haskell
+        - ghc
         # Swift
         #- swift-language-git
         #- icu
