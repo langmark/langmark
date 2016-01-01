@@ -1,0 +1,6 @@
+[
+    {
+        "name" : "Mono",
+        "script" : "mono.sh"
+    }
+]
