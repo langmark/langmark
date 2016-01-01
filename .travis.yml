@@ -1,6 +1,9 @@
 sudo: required
 language: generic
 
+env:
+    ARCH_TRAVIS_VERBOSE: true
+
 arch:
     packages:
         # C/C++
