@@ -22,10 +22,7 @@ case "$1" in
 ;;
 
 "clean")
-    rm sort.exe
-    rm time.out
-    rm print.out
-    rm version.out
+    rm -f sort.exe time.out print.out version.out
 ;;
 
 esac

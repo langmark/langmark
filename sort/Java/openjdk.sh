@@ -22,10 +22,7 @@ case "$1" in
 ;;
 
 "clean")
-    rm sort.class
-    rm time.out
-    rm print.out
-    rm version.out
+    rm -f sort.class time.out print.out version.out
 ;;
 
 esac

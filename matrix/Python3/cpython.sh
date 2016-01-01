@@ -20,9 +20,7 @@ case "$1" in
 ;;
 
 "clean")
-    rm time.out
-    rm print.out
-    rm version.out
+    rm -f time.out print.out version.out
 ;;
 
 esac

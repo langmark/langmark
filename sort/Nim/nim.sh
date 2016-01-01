@@ -6,14 +6,15 @@ case "$1" in
 
 "pre_exec")
     nim c -d:release sort.nim 2> /dev/null > /dev/null
+    mv sort sort.bin
 ;;
 
 "exec")
-    /usr/bin/time -f %U ./sort 2> time.out
+    /usr/bin/time -f %U ./sort.bin 2> time.out
 ;;
 
 "print_exec")
-    ./sort --print > print.out
+    ./sort.bin --print > print.out
 ;;
 
 "version")
@@ -21,11 +22,8 @@ case "$1" in
 ;;
 
 "clean")
-    rm sort
-    rm -r nimcache
-    rm time.out
-    rm print.out
-    rm version.out
+    rm -f sort.bin sort time.out print.out version.out
+    rm -fr nimcache
 ;;
 
 esac

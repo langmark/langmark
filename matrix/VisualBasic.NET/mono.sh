@@ -22,10 +22,7 @@ case "$1" in
 ;;
 
 "clean")
-    rm matrix.exe
-    rm time.out
-    rm print.out
-    rm version.out
+    rm -f matrix.exe time.out print.out version.out
 ;;
 
 esac

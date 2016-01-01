@@ -5,15 +5,15 @@ cd "$(dirname "$0")"
 case "$1" in
 
 "pre_exec")
-    g++ matrix.cpp -std=c++11 -O3 -o matrix
+    g++ matrix.cpp -std=c++11 -O3 -o matrix.bin
 ;;
 
 "exec")
-    /usr/bin/time -f %U ./matrix 2> time.out
+    /usr/bin/time -f %U ./matrix.bin 2> time.out
 ;;
 
 "print_exec")
-    ./matrix --print > print.out
+    ./matrix.bin --print > print.out
 ;;
 
 "version")
@@ -21,10 +21,7 @@ case "$1" in
 ;;
 
 "clean")
-    rm matrix
-    rm time.out
-    rm print.out
-    rm version.out
+    rm -f matrix.bin time.out print.out version.out
 ;;
 
 esac

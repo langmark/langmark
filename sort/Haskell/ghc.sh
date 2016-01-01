@@ -5,15 +5,15 @@ cd "$(dirname "$0")"
 case "$1" in
 
 "pre_exec")
-    ghc -O sort.hs > /dev/null
+    ghc -O sort.hs -o sort.bin > /dev/null
 ;;
 
 "exec")
-    /usr/bin/time -f %U ./sort 2> time.out
+    /usr/bin/time -f %U ./sort.bin 2> time.out
 ;;
 
 "print_exec")
-    ./sort --print > print.out
+    ./sort.bin --print > print.out
 ;;
 
 "version")
@@ -21,12 +21,7 @@ case "$1" in
 ;;
 
 "clean")
-    rm sort
-    rm sort.o
-    rm sort.hi
-    rm time.out
-    rm print.out
-    rm version.out
+    rm -f sort.bin sort.o sort.hi time.out print.out version.out
 ;;
 
 esac

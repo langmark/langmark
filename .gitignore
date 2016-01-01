@@ -1,4 +1,10 @@
 *.out
+*.bin
+*.exe
+*.o
+*.hi
+*.class
+
 *~
 [0-9]*.json
 results.txt

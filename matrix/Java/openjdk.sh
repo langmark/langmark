@@ -22,10 +22,7 @@ case "$1" in
 ;;
 
 "clean")
-    rm matrix.class
-    rm time.out
-    rm print.out
-    rm version.out
+    rm -f matrix.class time.out print.out version.out
 ;;
 
 esac

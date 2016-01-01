@@ -5,15 +5,15 @@ cd "$(dirname "$0")"
 case "$1" in
 
 "pre_exec")
-    crystal build sort.cr
+    crystal build sort.cr -o sort.bin
 ;;
 
 "exec")
-    /usr/bin/time -f %U ./sort 2> time.out
+    /usr/bin/time -f %U ./sort.bin 2> time.out
 ;;
 
 "print_exec")
-    ./sort --print > print.out
+    ./sort.bin --print > print.out
 ;;
 
 "version")
@@ -21,11 +21,8 @@ case "$1" in
 ;;
 
 "clean")
-    rm sort
+    rm -f sort.bin time.out print.out version.out
     rm -rf .crystal
-    rm time.out
-    rm print.out
-    rm version.out
 ;;
 
 esac

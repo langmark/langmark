@@ -5,15 +5,15 @@ cd "$(dirname "$0")"
 case "$1" in
 
 "pre_exec")
-    ldc matrix.d -O3
+    ldc matrix.d -O3 -ofmatrix.bin
 ;;
 
 "exec")
-    /usr/bin/time -f %U ./matrix 2> time.out
+    /usr/bin/time -f %U ./matrix.bin 2> time.out
 ;;
 
 "print_exec")
-    ./matrix --print > print.out
+    ./matrix.bin --print > print.out
 ;;
 
 "version")
@@ -21,11 +21,7 @@ case "$1" in
 ;;
 
 "clean")
-    rm matrix
-    rm matrix.o
-    rm time.out
-    rm print.out
-    rm version.out
+    rm -f matrix.bin matrix.o time.out print.out version.out
 ;;
 
 esac

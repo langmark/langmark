@@ -5,15 +5,15 @@ cd "$(dirname "$0")"
 case "$1" in
 
 "pre_exec")
-    ghc -O matrix.hs > /dev/null
+    ghc -O matrix.hs -o matrix.bin > /dev/null
 ;;
 
 "exec")
-    /usr/bin/time -f %U ./matrix 2> time.out
+    /usr/bin/time -f %U ./matrix.bin 2> time.out
 ;;
 
 "print_exec")
-    ./matrix --print > print.out
+    ./matrix.bin --print > print.out
 ;;
 
 "version")
@@ -21,12 +21,7 @@ case "$1" in
 ;;
 
 "clean")
-    rm matrix
-    rm matrix.o
-    rm matrix.hi
-    rm time.out
-    rm print.out
-    rm version.out
+    rm -f matrix.bin matrix.o matrix.hi time.out print.out version.out
 ;;
 
 esac
