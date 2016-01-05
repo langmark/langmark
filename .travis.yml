@@ -10,6 +10,8 @@ arch:
         - gcc
         - clang
         - tcc
+        - libc++
+        - libc++abi
         # Python
         - pypy3
         - python

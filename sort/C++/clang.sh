@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 case "$1" in
 
 "pre_exec")
-    clang++ sort.cpp -std=c++11 -O3 -o sort.bin
+    clang++ -stdlib=libc++ sort.cpp -nodefaultlibs -lc++ -lc++abi -lm -lc -lgcc_s -lgcc -O3 -o sort.bin
 ;;
 
 "exec")
