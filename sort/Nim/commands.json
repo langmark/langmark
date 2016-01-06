@@ -1,6 +1,14 @@
 [
     {
         "name" : "Nim",
-        "script" : "nim.sh"
+        "script" : {
+            "input": "sort.nim",
+            "compile": [
+                [ "nim", "c", "-d:release", "%f" ],
+                [ "mv", "%t", "%o" ]
+            ],
+            "version": [ [ "nim", "--version" ] ],
+            "other_files": [ "%t", "nimcache" ]
+        }
     }
 ]

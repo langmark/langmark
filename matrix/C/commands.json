@@ -1,14 +1,26 @@
 [
     {
         "name" : "GCC",
-        "script" : "gcc.sh"
+        "script" : {
+            "input": "matrix.c",
+            "compile": [ [ "gcc", "%f", "-std=c++11", "-O3", "-o", "%o" ] ],
+            "version": [ [ "gcc", "--version" ] ]
+        }
     },
     {
         "name" : "Clang",
-        "script" : "clang.sh"
+        "script" : {
+            "input": "matrix.c",
+            "compile": [ [ "clang", "%f", "-std=c11", "-O3", "-o", "%o" ] ],
+            "version": [ [ "clang", "--version" ] ]
+        }
     },
     {
         "name" : "TCC",
-        "script" : "tcc.sh"
+        "script" : {
+            "input": "matrix.c",
+            "compile": [ [ "tcc", "%f", "-o", "%o" ] ],
+            "version": [ [ "tcc", "-version" ] ]
+        }
     }
 ]

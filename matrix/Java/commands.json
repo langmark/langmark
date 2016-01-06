@@ -1,6 +1,15 @@
 [
     {
         "name" : "OpenJDK",
-        "script" : "openjdk.sh"
+        "script" : {
+            "input": "matrix.java",
+            "output": "matrix.class",
+            "compile": [ [ "javac", "%f" ] ],
+            "run": [ "java", "%t" ],
+            "version": [
+                [ "javac", "-version" ],
+                [ "java", "-version" ]
+            ]
+        }
     }
 ]

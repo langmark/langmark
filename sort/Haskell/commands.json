@@ -1,6 +1,11 @@
 [
     {
         "name" : "GHC",
-        "script" : "ghc.sh"
+        "script" : {
+            "input": "sort.hs",
+            "other_files": [ "%t.o", "%t.hi" ],
+            "compile": [ [ "ghc", "-O", "%f", "-o", "%o" ] ],
+            "version": [ [ "ghc", "--version" ] ]
+        }
     }
 ]

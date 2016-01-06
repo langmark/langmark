@@ -5,62 +5,11 @@ import subprocess
 import datetime
 import sys
 import getopt
+from bench import Bench, ScriptBench
 
-SHELL = '/bin/bash'
 WALL_TIME = None
 ONLY_TEST = None
 ONLY_LANG = None
-
-class Bench:
-    workingDir = ''
-    name = ''
-    script = ''
-    expected_result = None
-
-    def __init__(self, workingDir, name, script, expected_result):
-        self.workingDir = workingDir
-        self.name = name
-        self.script = script
-        if expected_result:
-            self.expected_result = str(expected_result).strip()
-
-    def version(self):
-        return self.execute('version', 'version.out')
-
-    def prepare(self):
-        return self.execute('pre_exec')
-
-    def clear(self):
-        return self.execute('clean')
-
-    def run(self):
-        out = self.execute('exec', 'time.out')
-        if out == False:
-            return { 'success': False, 'error': 'Error executing command!', 'details': '' }
-        try:
-            return { 'success': True, 'time': float(out) }
-        except:
-            return { 'success': False, 'error': 'Error getting the time', 'details': out }
-
-    def runCheck(self):
-        out = self.execute('print_exec', 'print.out')
-        if out == False:
-            return { 'success': False, 'error': 'Failed', 'details': 'Boh..' }
-        if self.expected_result and self.expected_result != out.strip():
-            return { 'success': False, 'error': 'Wrong answer', 'details': "'%s' != '%s'" % (self.expected_result, out.strip()) }
-        return { 'success': True }
-
-    def execute(self, command, output = None):
-        ret = subprocess.call([SHELL, self.workingDir + '/' + self.script, command])
-        if ret != 0: return False
-        if output:   return self.readFile(output)
-        return True
-
-    def readFile(self, file):
-        try:
-            return open(self.workingDir + '/' + file, 'r').read()
-        except:
-            return '## File Not Found ##'
 
 class LangTest:
     test = ''
@@ -90,8 +39,12 @@ class LangTest:
 
 
     def runCommand(self, command):
-        print('    ' + self.test + ' | ' + self.lang + ' -> ' + command['name'] + ': ', flush=True, end='')
-        bench = Bench(self.workingDir, command['name'], command['script'], self.expected_result)
+        print('      ' + command['name'].ljust(10) + ': ', flush=True, end='')
+
+        if type(command['script']) is str:
+            bench = ScriptBench(self.workingDir, command['name'], command['script'], self.expected_result)
+        else:
+            bench = Bench(self.workingDir, self.test, command['name'], command['script'], self.expected_result)
 
         res = bench.prepare()
         if res == False:
@@ -108,7 +61,7 @@ class LangTest:
 
         time = 0.0
         tests = 0
-        while time < self.wall_time:
+        while time <= self.wall_time:
             res = bench.run()
             if res['success'] == False:
                 red('    Error: ' + res['error'])
@@ -147,7 +100,7 @@ class Test:
         self.name = name
         config = json.loads(open(self.name + '/config.json', 'r').read())
         self.configuration['languages'] = config['languages']
-        self.configuration['wall_time'] = WALL_TIME if WALL_TIME else config['wall_time']
+        self.configuration['wall_time'] = WALL_TIME if WALL_TIME != None else config['wall_time']
         self.configuration['expected_result'] = config['expected_result']
         if not self.configuration['expected_result']:
             yellow('  Warning: the result check is disabled for this test')
@@ -188,7 +141,7 @@ def usage():
 
 def run():
     print('wall_time: ', end='')
-    blue(str(WALL_TIME) if WALL_TIME else '[per test]')
+    blue(str(WALL_TIME) if WALL_TIME != None else '[per test]')
     print('tests: ', end='')
     blue(str(ONLY_TEST) if ONLY_TEST else '[all]')
     print('langs: ', end='')
@@ -239,9 +192,9 @@ def main(argv):
                 usage()
                 red('wall_time must be a float')
                 sys.exit(1)
-            if WALL_TIME <= 0:
+            if WALL_TIME < 0:
                 usage()
-                red('wall_time must be greater than zero')
+                red('wall_time must be greater or equal than zero')
                 sys.exit(1)
 
         elif opt in ('-t', '--test'):

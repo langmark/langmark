@@ -9,3 +9,5 @@
 [0-9]*.json
 results.txt
 results
+
+__pycache__

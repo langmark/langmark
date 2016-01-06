@@ -1,6 +1,10 @@
 [
     {
         "name" : "Swift",
-        "script" : "swift.sh"
+        "script" : {
+            "input": "sort.swift",
+            "compile": [ [ "swiftc", "-O", "%f", "-o", "%o" ] ],
+            "version": [ [ "swiftc", "--version" ] ]
+        }
     }
 ]

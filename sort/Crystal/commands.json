@@ -1,6 +1,11 @@
 [
     {
         "name" : "Crystal",
-        "script" : "crystal.sh"
+        "script" : {
+            "input": "sort.cr",
+            "compile": [ [ "crystal", "build", "%f", "-o", "%o" ] ],
+            "version": [ [ "crystal", "--version" ] ],
+            "other_files": [ ".crystal" ]
+        }
     }
 ]

@@ -1,6 +1,14 @@
 [
     {
         "name" : "Mono",
-        "script" : "mono.sh"
+        "script" : {
+            "input": "sort.vb",
+            "compile": [ [ "vbnc", "%f", "/out:%o" ] ],
+            "run": [ "mono", "%o" ],
+            "version": [
+                [ "bash", "-c", "vbnc /? | head -n 1" ],
+                [ "mono", "--version" ]
+            ]
+        }
     }
 ]

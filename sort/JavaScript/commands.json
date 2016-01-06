@@ -1,6 +1,10 @@
 [
     {
         "name" : "NodeJS",
-        "script" : "node.sh"
+        "script" : {
+            "input": "sort.js",
+            "run": [ "node", "%o" ],
+            "version": [ [ "node", "--version" ] ]
+        }
     }
 ]

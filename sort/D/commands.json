@@ -1,14 +1,28 @@
 [
     {
         "name" : "GCC",
-        "script" : "gcc.sh"
+        "script" : {
+            "input": "sort.d",
+            "compile": [ [ "gdc", "%f", "-O3", "-o", "%o" ] ],
+            "version": [ [ "gdc", "--version" ] ]
+        }
     },
     {
         "name" : "LDC",
-        "script" : "ldc.sh"
+        "script" : {
+            "input": "sort.d",
+            "other_files": [ "%b.o" ],
+            "compile": [ [ "ldc", "%f", "-O3", "-of%o" ] ],
+            "version": [ [ "ldc", "--version" ] ]
+        }
     },
     {
         "name" : "DMD",
-        "script" : "dmd.sh"
+        "script" : {
+            "input": "sort.d",
+            "other_files": [ "%b.o" ],
+            "compile": [ [ "dmd", "%f", "-O", "-of%o" ] ],
+            "version": [ [ "dmd", "--version" ] ]
+        }
     }
 ]

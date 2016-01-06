@@ -1,6 +1,10 @@
 [
     {
         "name" : "Vala",
-        "script" : "vala.sh"
+        "script" : {
+            "input": "sort.vala",
+            "compile": [ [ "valac", "%f", "--pkg", "posix", "-X", "-O3", "-o", "%o" ] ],
+            "version": [ [ "valac", "--version" ] ]
+        }
     }
 ]

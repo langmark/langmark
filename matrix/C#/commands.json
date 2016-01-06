@@ -1,6 +1,14 @@
 [
     {
         "name" : "Mono",
-        "script" : "mono.sh"
+        "script" : {
+            "input": "matrix.cs",
+            "compile": [ [ "mcs", "%f", "-out:%o" ] ],
+            "run": [ "mono", "%o" ],
+            "version": [
+                [ "mcs", "--version" ],
+                [ "mono", "--version" ]
+            ]
+        }
     }
 ]
