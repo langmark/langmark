@@ -2,7 +2,7 @@
     {
         "name" : "PHP",
         "script" : {
-            "input": "sort.php",
+            "input": "matrix.php",
             "version": [ [ "php", "--version" ] ],
             "run": [ "php", "%o" ]
         }
@@ -10,7 +10,7 @@
     {
         "name" : "hhvm",
         "script" : {
-            "input": "sort.php",
+            "input": "matrix.php",
             "version": [ [ "hhvm", "--version" ] ],
             "run": [ "hhvm", "%o" ]
         }

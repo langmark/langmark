@@ -37,6 +37,9 @@ arch:
         - crystal
         # Rust
         - rust
+        # PHP
+        - php
+        - hhvm
         # Swift
         #- swift-language-git
         #- icu
