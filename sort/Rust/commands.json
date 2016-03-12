@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "Rust",
+        "script" : {
+            "input": "sort.rs",
+            "compile": [ [ "rustc", "%f", "-o", "%o", "-O" ] ],
+            "version": [ [ "rustc", "--version" ] ]
+        }
+    }
+]

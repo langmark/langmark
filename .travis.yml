@@ -35,6 +35,8 @@ arch:
         - ghc
         # Crystal
         - crystal
+        # Rust
+        - rust
         # Swift
         #- swift-language-git
         #- icu
