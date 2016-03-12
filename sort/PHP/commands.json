@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "PHP",
+        "script" : {
+            "input": "sort.php",
+            "version": [ [ "php", "--version" ] ],
+            "run": [ "php", "%o" ]
+        }
+    }
+]
