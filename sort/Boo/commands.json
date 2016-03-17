@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "Mono",
+        "script" : {
+            "input": "sort.boo",
+            "compile": [ [ "booc", "%f", "-out:%o" ] ],
+            "run": [ "mono", "%o" ],
+            "version": [
+                [ "booc", "--version" ],
+                [ "mono", "--version" ]
+            ]
+        }
+    }
+]
