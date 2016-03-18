@@ -12,6 +12,8 @@ arch:
         - tcc
         - libc++
         - libc++abi
+        # Boo
+        - boo
         # Python
         - pypy3
         - python
