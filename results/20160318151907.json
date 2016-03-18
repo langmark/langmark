@@ -1,0 +1,250 @@
+{
+    "matrix": {
+        "Boo": [],
+        "JavaScript": [
+            {
+                "name": "NodeJS",
+                "time": 1.774,
+                "version": "v5.9.0\n"
+            }
+        ],
+        "Vala": [
+            {
+                "name": "Vala",
+                "time": 0.337,
+                "version": "Vala 0.30.1\n"
+            }
+        ],
+        "Python3": [
+            {
+                "name": "CPython",
+                "time": 88.15,
+                "version": "Python 3.5.1\n"
+            },
+            {
+                "name": "PyPy",
+                "time": 3.337,
+                "version": "Python 3.2.5 (b2091e973da69152b3f928bfaabd5d2347e6df46, Mar 04 2016, 07:08:30)\n[PyPy 2.4.0 with GCC 5.3.0]\n"
+            }
+        ],
+        "D": [
+            {
+                "name": "GCC",
+                "time": 0.321,
+                "version": "gdc (GCC) 5.3.0\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "LDC",
+                "time": 0.325,
+                "version": "LDC - the LLVM D compiler (0.17.0):\n  based on DMD v2.068.2 and LLVM 3.7.1\n  Default target: x86_64-unknown-linux-gnu\n  Host CPU: haswell\n  http://dlang.org - http://wiki.dlang.org/LDC\n\n  Registered Targets:\n    aarch64    - AArch64 (little endian)\n    aarch64_be - AArch64 (big endian)\n    amdgcn     - AMD GCN GPUs\n    arm        - ARM\n    arm64      - ARM64 (little endian)\n    armeb      - ARM (big endian)\n    bpf        - BPF (host endian)\n    bpfeb      - BPF (big endian)\n    bpfel      - BPF (little endian)\n    cpp        - C++ backend\n    hexagon    - Hexagon\n    mips       - Mips\n    mips64     - Mips64 [experimental]\n    mips64el   - Mips64el [experimental]\n    mipsel     - Mipsel\n    msp430     - MSP430 [experimental]\n    nvptx      - NVIDIA PTX 32-bit\n    nvptx64    - NVIDIA PTX 64-bit\n    ppc32      - PowerPC 32\n    ppc64      - PowerPC 64\n    ppc64le    - PowerPC 64 LE\n    r600       - AMD GPUs HD2XXX-HD6XXX\n    sparc      - Sparc\n    sparcel    - Sparc LE\n    sparcv9    - Sparc V9\n    systemz    - SystemZ\n    thumb      - Thumb\n    thumbeb    - Thumb (big endian)\n    x86        - 32-bit X86: Pentium-Pro and above\n    x86-64     - 64-bit X86: EM64T and AMD64\n    xcore      - XCore\n"
+            },
+            {
+                "name": "DMD",
+                "time": 0.634,
+                "version": "DMD64 D Compiler v2.070\nCopyright (c) 1999-2015 by Digital Mars written by Walter Bright\n"
+            }
+        ],
+        "C++": [
+            {
+                "name": "GCC",
+                "time": 0.315,
+                "version": "g++ (GCC) 5.3.0\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "Clang",
+                "time": 0.332,
+                "version": "clang version 3.7.1 (tags/RELEASE_371/final)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\n"
+            }
+        ],
+        "C#": [
+            {
+                "name": "Mono",
+                "time": 4.573,
+                "version": "Mono C# compiler version 4.2.2.0\nMono JIT compiler version 4.2.2 (Stable 4.2.2.30/996df3c Sun Jan 31 11:58:08 UTC 2016)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tLLVM:          supported, not enabled.\n\tGC:            sgen\n"
+            }
+        ],
+        "Java": [
+            {
+                "name": "OpenJDK",
+                "time": 0.355,
+                "version": "javac 1.8.0_74\nopenjdk version \"1.8.0_74\"\nOpenJDK Runtime Environment (build 1.8.0_74-b02)\nOpenJDK 64-Bit Server VM (build 25.74-b02, mixed mode)\n"
+            }
+        ],
+        "PHP": [
+            {
+                "name": "PHP",
+                "time": 21.17,
+                "version": "PHP 7.0.4 (cli) (built: Mar  5 2016 09:28:27) ( NTS )\nCopyright (c) 1997-2016 The PHP Group\nZend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies\n"
+            },
+            {
+                "name": "hhvm",
+                "time": 15.685,
+                "version": "HipHop VM 3.12.1 (rel)\nCompiler: 1457122941_351622013\nRepo schema: 5f370e98a6cb3b402eca2c667fb8436c7ec772e4\n"
+            }
+        ],
+        "VisualBasic.NET": [
+            {
+                "name": "Mono",
+                "time": 15.095,
+                "version": "Visual Basic.Net Compiler version 0.0.0.5943 (Mono 4.0.1 - tarball)\nMono JIT compiler version 4.2.2 (Stable 4.2.2.30/996df3c Sun Jan 31 11:58:08 UTC 2016)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tLLVM:          supported, not enabled.\n\tGC:            sgen\n"
+            }
+        ],
+        "C": [
+            {
+                "name": "GCC",
+                "time": 0.314,
+                "version": "gcc (GCC) 5.3.0\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "Clang",
+                "time": 0.33,
+                "version": "clang version 3.7.1 (tags/RELEASE_371/final)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\n"
+            }
+        ],
+        "Haskell": [
+            {
+                "name": "GHC",
+                "time": 4.294,
+                "version": "The Glorious Glasgow Haskell Compilation System, version 7.10.3\n"
+            }
+        ]
+    },
+    "sort": {
+        "Boo": [
+            {
+                "name": "Mono",
+                "time": 0.811,
+                "version": "Mono JIT compiler version 4.2.2 (Stable 4.2.2.30/996df3c Sun Jan 31 11:58:08 UTC 2016)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tLLVM:          supported, not enabled.\n\tGC:            sgen\n"
+            }
+        ],
+        "JavaScript": [
+            {
+                "name": "NodeJS",
+                "time": 1.095,
+                "version": "v5.9.0\n"
+            }
+        ],
+        "Rust": [
+            {
+                "name": "Rust",
+                "time": 0.363,
+                "version": "rustc 1.7.0\n"
+            }
+        ],
+        "Vala": [
+            {
+                "name": "Vala",
+                "time": 0.499,
+                "version": "Vala 0.30.1\n"
+            }
+        ],
+        "Nim": [
+            {
+                "name": "Nim",
+                "time": 0.669,
+                "version": "Nim Compiler Version 0.13.0 (2016-03-12) [Linux: amd64]\nCopyright (c) 2006-2015 by Andreas Rumpf\n\ngit hash: a121c3f9eb2a348b9d6ae03ffd01aab26a238c30\nactive boot switches: -d:release\n"
+            }
+        ],
+        "D": [
+            {
+                "name": "GCC",
+                "time": 0.32,
+                "version": "gdc (GCC) 5.3.0\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "LDC",
+                "time": 0.305,
+                "version": "LDC - the LLVM D compiler (0.17.0):\n  based on DMD v2.068.2 and LLVM 3.7.1\n  Default target: x86_64-unknown-linux-gnu\n  Host CPU: haswell\n  http://dlang.org - http://wiki.dlang.org/LDC\n\n  Registered Targets:\n    aarch64    - AArch64 (little endian)\n    aarch64_be - AArch64 (big endian)\n    amdgcn     - AMD GCN GPUs\n    arm        - ARM\n    arm64      - ARM64 (little endian)\n    armeb      - ARM (big endian)\n    bpf        - BPF (host endian)\n    bpfeb      - BPF (big endian)\n    bpfel      - BPF (little endian)\n    cpp        - C++ backend\n    hexagon    - Hexagon\n    mips       - Mips\n    mips64     - Mips64 [experimental]\n    mips64el   - Mips64el [experimental]\n    mipsel     - Mipsel\n    msp430     - MSP430 [experimental]\n    nvptx      - NVIDIA PTX 32-bit\n    nvptx64    - NVIDIA PTX 64-bit\n    ppc32      - PowerPC 32\n    ppc64      - PowerPC 64\n    ppc64le    - PowerPC 64 LE\n    r600       - AMD GPUs HD2XXX-HD6XXX\n    sparc      - Sparc\n    sparcel    - Sparc LE\n    sparcv9    - Sparc V9\n    systemz    - SystemZ\n    thumb      - Thumb\n    thumbeb    - Thumb (big endian)\n    x86        - 32-bit X86: Pentium-Pro and above\n    x86-64     - 64-bit X86: EM64T and AMD64\n    xcore      - XCore\n"
+            },
+            {
+                "name": "DMD",
+                "time": 0.577,
+                "version": "DMD64 D Compiler v2.070\nCopyright (c) 1999-2015 by Digital Mars written by Walter Bright\n"
+            }
+        ],
+        "C++": [
+            {
+                "name": "GCC",
+                "time": 0.276,
+                "version": "g++ (GCC) 5.3.0\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "Clang",
+                "time": 0.238,
+                "version": "clang version 3.7.1 (tags/RELEASE_371/final)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\n"
+            }
+        ],
+        "C#": [
+            {
+                "name": "Mono",
+                "time": 0.812,
+                "version": "Mono C# compiler version 4.2.2.0\nMono JIT compiler version 4.2.2 (Stable 4.2.2.30/996df3c Sun Jan 31 11:58:08 UTC 2016)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tLLVM:          supported, not enabled.\n\tGC:            sgen\n"
+            }
+        ],
+        "Python3": [
+            {
+                "name": "CPython",
+                "time": 3.689,
+                "version": "Python 3.5.1\n"
+            },
+            {
+                "name": "PyPy",
+                "time": 4.11,
+                "version": "Python 3.2.5 (b2091e973da69152b3f928bfaabd5d2347e6df46, Mar 04 2016, 07:08:30)\n[PyPy 2.4.0 with GCC 5.3.0]\n"
+            }
+        ],
+        "PHP": [
+            {
+                "name": "PHP",
+                "time": 1.353,
+                "version": "PHP 7.0.4 (cli) (built: Mar  5 2016 09:28:27) ( NTS )\nCopyright (c) 1997-2016 The PHP Group\nZend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies\n"
+            },
+            {
+                "name": "hhvm",
+                "time": 0.546,
+                "version": "HipHop VM 3.12.1 (rel)\nCompiler: 1457122941_351622013\nRepo schema: 5f370e98a6cb3b402eca2c667fb8436c7ec772e4\n"
+            }
+        ],
+        "Haskell": [
+            {
+                "name": "GHC",
+                "time": 17.42,
+                "version": "The Glorious Glasgow Haskell Compilation System, version 7.10.3\n"
+            }
+        ],
+        "VisualBasic.NET": [
+            {
+                "name": "Mono",
+                "time": 0.815,
+                "version": "Visual Basic.Net Compiler version 0.0.0.5943 (Mono 4.0.1 - tarball)\nMono JIT compiler version 4.2.2 (Stable 4.2.2.30/996df3c Sun Jan 31 11:58:08 UTC 2016)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tLLVM:          supported, not enabled.\n\tGC:            sgen\n"
+            }
+        ],
+        "Java": [
+            {
+                "name": "OpenJDK",
+                "time": 2.927,
+                "version": "javac 1.8.0_74\nopenjdk version \"1.8.0_74\"\nOpenJDK Runtime Environment (build 1.8.0_74-b02)\nOpenJDK 64-Bit Server VM (build 25.74-b02, mixed mode)\n"
+            }
+        ],
+        "Crystal": [
+            {
+                "name": "Crystal",
+                "time": 1.54,
+                "version": "Crystal 0.13.0 (Mon Mar  7 19:51:32 UTC 2016)\n"
+            }
+        ],
+        "Swift": [],
+        "C": [
+            {
+                "name": "GCC",
+                "time": 0.52,
+                "version": "gcc (GCC) 5.3.0\nCopyright (C) 2015 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "Clang",
+                "time": 0.495,
+                "version": "clang version 3.7.1 (tags/RELEASE_371/final)\nTarget: x86_64-unknown-linux-gnu\nThread model: posix\n"
+            }
+        ]
+    }
+}
