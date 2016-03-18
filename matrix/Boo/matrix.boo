@@ -9,7 +9,6 @@ for i in range(2):
 
 sum = 0
 for i in range(512):
-    print(i)
     for j in range(512):
         for k in range(512):
             m[2, i, j] = m[2, i, j] + m[0, i, k] * m[1, k, j]
