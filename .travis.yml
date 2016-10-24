@@ -41,7 +41,7 @@ arch:
         - rust
         # PHP
         - php
-        - hhvm
+        # - hhvm # Not in the repo anymore (?)
         # Swift
         #- swift-language-git
         #- icu

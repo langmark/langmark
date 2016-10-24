@@ -6,13 +6,5 @@
             "version": [ [ "php", "--version" ] ],
             "run": [ "php", "%o" ]
         }
-    },
-    {
-        "name" : "hhvm",
-        "script" : {
-            "input": "matrix.php",
-            "version": [ [ "hhvm", "--version" ] ],
-            "run": [ "hhvm", "%o" ]
-        }
     }
 ]
