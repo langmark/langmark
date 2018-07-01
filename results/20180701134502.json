@@ -1,0 +1,190 @@
+{
+    "sort": {
+        "C": [
+            {
+                "name": "GCC",
+                "time": 0.565,
+                "version": "gcc (GCC) 8.1.1 20180531\nCopyright (C) 2018 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "Clang",
+                "time": 0.558,
+                "version": "clang version 6.0.0 (tags/RELEASE_600/final)\nTarget: x86_64-pc-linux-gnu\nThread model: posix\nInstalledDir: /usr/sbin\n"
+            },
+            {
+                "name": "TCC",
+                "time": 0.799,
+                "version": "tcc version 0.9.27 (x86_64 Linux)\n"
+            }
+        ],
+        "C++": [
+            {
+                "name": "GCC",
+                "time": 0.331,
+                "version": "g++ (GCC) 8.1.1 20180531\nCopyright (C) 2018 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            }
+        ],
+        "Java": [
+            {
+                "name": "OpenJDK",
+                "time": 3.357,
+                "version": "javac 1.8.0_172\nopenjdk version \"1.8.0_172\"\nOpenJDK Runtime Environment (build 1.8.0_172-b11)\nOpenJDK 64-Bit Server VM (build 25.172-b11, mixed mode)\n"
+            }
+        ],
+        "Python3": [
+            {
+                "name": "CPython",
+                "time": 4.806,
+                "version": "Python 3.6.5\n"
+            },
+            {
+                "name": "PyPy",
+                "time": 7.018,
+                "version": "Python 3.5.3 (fdd60ed87e941677e8ea11acf9f1819466521bf2, Apr 26 2018, 07:09:59)\n[PyPy 6.0.0 with GCC 7.3.1 20180406]\n"
+            }
+        ],
+        "Vala": [],
+        "C#": [
+            {
+                "name": "Mono",
+                "time": 1.095,
+                "version": "Mono C# compiler version 5.12.0.0\nMono JIT compiler version 5.12.0 (makepkg/58637d0ee7c Wed Jun  6 22:41:15 CEST 2018)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tInterpreter:   yes\n\tLLVM:          supported, not enabled.\n\tGC:            sgen (concurrent by default)\n"
+            }
+        ],
+        "VisualBasic.NET": [
+            {
+                "name": "Mono",
+                "time": 1.046,
+                "version": "Visual Basic.Net Compiler version 0.0.0.5943 (Mono 4.7 - master/0f785d9)\nMono JIT compiler version 5.12.0 (makepkg/58637d0ee7c Wed Jun  6 22:41:15 CEST 2018)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tInterpreter:   yes\n\tLLVM:          supported, not enabled.\n\tGC:            sgen (concurrent by default)\n"
+            }
+        ],
+        "JavaScript": [
+            {
+                "name": "NodeJS",
+                "time": 2.78,
+                "version": "v10.5.0\n"
+            }
+        ],
+        "D": [],
+        "Swift": [],
+        "Nim": [
+            {
+                "name": "Nim",
+                "time": 0.734,
+                "version": "Nim Compiler Version 0.18.0 [Linux: amd64]\nCopyright (c) 2006-2018 by Andreas Rumpf\n\nactive boot switches: -d:release -d:nativeStackTrace\n"
+            }
+        ],
+        "Haskell": [],
+        "Crystal": [],
+        "Rust": [
+            {
+                "name": "Rust",
+                "time": 0.326,
+                "version": "rustc 1.27.0\n"
+            }
+        ],
+        "PHP": [
+            {
+                "name": "PHP",
+                "time": 1.352,
+                "version": "PHP 7.2.7 (cli) (built: Jun 23 2018 05:44:17) ( NTS )\nCopyright (c) 1997-2018 The PHP Group\nZend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies\n"
+            }
+        ],
+        "Boo": [
+            {
+                "name": "Mono",
+                "time": 1.086,
+                "version": "Mono JIT compiler version 5.12.0 (makepkg/58637d0ee7c Wed Jun  6 22:41:15 CEST 2018)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tInterpreter:   yes\n\tLLVM:          supported, not enabled.\n\tGC:            sgen (concurrent by default)\n"
+            }
+        ]
+    },
+    "matrix": {
+        "C": [
+            {
+                "name": "GCC",
+                "time": 0.238,
+                "version": "gcc (GCC) 8.1.1 20180531\nCopyright (C) 2018 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "Clang",
+                "time": 0.312,
+                "version": "clang version 6.0.0 (tags/RELEASE_600/final)\nTarget: x86_64-pc-linux-gnu\nThread model: posix\nInstalledDir: /usr/sbin\n"
+            },
+            {
+                "name": "TCC",
+                "time": 1.502,
+                "version": "tcc version 0.9.27 (x86_64 Linux)\n"
+            }
+        ],
+        "C++": [
+            {
+                "name": "GCC",
+                "time": 0.249,
+                "version": "g++ (GCC) 8.1.1 20180531\nCopyright (C) 2018 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            }
+        ],
+        "Java": [
+            {
+                "name": "OpenJDK",
+                "time": 0.375,
+                "version": "javac 1.8.0_172\nopenjdk version \"1.8.0_172\"\nOpenJDK Runtime Environment (build 1.8.0_172-b11)\nOpenJDK 64-Bit Server VM (build 25.172-b11, mixed mode)\n"
+            }
+        ],
+        "Vala": [],
+        "Python3": [
+            {
+                "name": "CPython",
+                "time": 96.95,
+                "version": "Python 3.6.5\n"
+            },
+            {
+                "name": "PyPy",
+                "time": 4.104,
+                "version": "Python 3.5.3 (fdd60ed87e941677e8ea11acf9f1819466521bf2, Apr 26 2018, 07:09:59)\n[PyPy 6.0.0 with GCC 7.3.1 20180406]\n"
+            }
+        ],
+        "D": [
+            {
+                "name": "LDC",
+                "time": 0.38,
+                "version": "LDC - the LLVM D compiler (1.10.0):\n  based on DMD v2.080.1 and LLVM 6.0.0\n  built with LDC - the LLVM D compiler (1.10.0)\n  Default target: x86_64-pc-linux-gnu\n  Host CPU: sandybridge\n  http://dlang.org - http://wiki.dlang.org/LDC\n\n  Registered Targets:\n    aarch64    - AArch64 (little endian)\n    aarch64_be - AArch64 (big endian)\n    amdgcn     - AMD GCN GPUs\n    arm        - ARM\n    arm64      - ARM64 (little endian)\n    armeb      - ARM (big endian)\n    bpf        - BPF (host endian)\n    bpfeb      - BPF (big endian)\n    bpfel      - BPF (little endian)\n    hexagon    - Hexagon\n    lanai      - Lanai\n    mips       - Mips\n    mips64     - Mips64 [experimental]\n    mips64el   - Mips64el [experimental]\n    mipsel     - Mipsel\n    msp430     - MSP430 [experimental]\n    nvptx      - NVIDIA PTX 32-bit\n    nvptx64    - NVIDIA PTX 64-bit\n    ppc32      - PowerPC 32\n    ppc64      - PowerPC 64\n    ppc64le    - PowerPC 64 LE\n    r600       - AMD GPUs HD2XXX-HD6XXX\n    sparc      - Sparc\n    sparcel    - Sparc LE\n    sparcv9    - Sparc V9\n    systemz    - SystemZ\n    thumb      - Thumb\n    thumbeb    - Thumb (big endian)\n    x86        - 32-bit X86: Pentium-Pro and above\n    x86-64     - 64-bit X86: EM64T and AMD64\n    xcore      - XCore\n"
+            }
+        ],
+        "VisualBasic.NET": [
+            {
+                "name": "Mono",
+                "time": 141.81,
+                "version": "Visual Basic.Net Compiler version 0.0.0.5943 (Mono 4.7 - master/0f785d9)\nMono JIT compiler version 5.12.0 (makepkg/58637d0ee7c Wed Jun  6 22:41:15 CEST 2018)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tInterpreter:   yes\n\tLLVM:          supported, not enabled.\n\tGC:            sgen (concurrent by default)\n"
+            }
+        ],
+        "C#": [
+            {
+                "name": "Mono",
+                "time": 4.297,
+                "version": "Mono C# compiler version 5.12.0.0\nMono JIT compiler version 5.12.0 (makepkg/58637d0ee7c Wed Jun  6 22:41:15 CEST 2018)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tInterpreter:   yes\n\tLLVM:          supported, not enabled.\n\tGC:            sgen (concurrent by default)\n"
+            }
+        ],
+        "JavaScript": [
+            {
+                "name": "NodeJS",
+                "time": 3.109,
+                "version": "v10.5.0\n"
+            }
+        ],
+        "Haskell": [],
+        "PHP": [
+            {
+                "name": "PHP",
+                "time": 23.515,
+                "version": "PHP 7.2.7 (cli) (built: Jun 23 2018 05:44:17) ( NTS )\nCopyright (c) 1997-2018 The PHP Group\nZend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies\n"
+            }
+        ],
+        "Boo": [
+            {
+                "name": "Mono",
+                "time": 225.59,
+                "version": "Mono JIT compiler version 5.12.0 (makepkg/58637d0ee7c Wed Jun  6 22:41:15 CEST 2018)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tInterpreter:   yes\n\tLLVM:          supported, not enabled.\n\tGC:            sgen (concurrent by default)\n"
+            }
+        ]
+    }
+}
