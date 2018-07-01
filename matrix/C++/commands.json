@@ -6,13 +6,5 @@
             "compile": [ [ "g++", "%f", "-std=c++11", "-O3", "-o", "%o" ] ],
             "version": [ [ "g++", "--version" ] ]
         }
-    },
-    {
-        "name" : "Clang",
-        "script" : {
-            "input": "matrix.cpp",
-            "compile": [ [ "clang", "%f", "-O3", "-o", "%o", "-stdlib=libc++", "-nodefaultlibs", "-lc++", "-lc++abi", "-lm", "-lc", "-lgcc_s", "-lgcc" ] ],
-            "version": [ [ "clang", "--version" ] ]
-        }
     }
 ]

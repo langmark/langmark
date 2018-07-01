@@ -10,8 +10,9 @@ arch:
         - gcc
         - clang
         - tcc
-        - libc++
-        - libc++abi
+        # this packages takes forever to build without --nocheck
+        #- libc++
+        #- libc++abi
         # Boo
         - boo
         # Python
