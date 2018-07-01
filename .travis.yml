@@ -63,7 +63,7 @@ arch:
         - "pacman -Q"
         - "./script.sh"
 script:
-    - "bash ./arch-travis.sh"
+    - "curl -s https://raw.githubusercontent.com/mikkeloscar/arch-travis/master/arch-travis.sh | bash"
 branches:
     except:
         - pushes
