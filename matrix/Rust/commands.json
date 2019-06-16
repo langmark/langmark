@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "Rust",
+        "script" : {
+            "input": "matrix.rs",
+            "compile": [ [ "rustc", "%f", "-O", "-o", "%o" ] ],
+            "version": [ [ "rustc", "--version" ] ]
+        }
+    }
+]
