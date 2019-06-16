@@ -1,0 +1,212 @@
+{
+    "sort": {
+        "C": [
+            {
+                "name": "GCC",
+                "time": 0.428,
+                "version": "gcc (GCC) 9.1.0\nCopyright (C) 2019 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "Clang",
+                "time": 0.427,
+                "version": "clang version 8.0.0 (tags/RELEASE_800/final)\nTarget: x86_64-pc-linux-gnu\nThread model: posix\nInstalledDir: /usr/bin\n"
+            },
+            {
+                "name": "TCC",
+                "time": 0.571,
+                "version": "tcc version 0.9.27 (x86_64 Linux)\n"
+            }
+        ],
+        "C++": [
+            {
+                "name": "GCC",
+                "time": 0.211,
+                "version": "g++ (GCC) 9.1.0\nCopyright (C) 2019 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "Clang",
+                "time": 0.195,
+                "version": "clang version 8.0.0 (tags/RELEASE_800/final)\nTarget: x86_64-pc-linux-gnu\nThread model: posix\nInstalledDir: /usr/bin\n"
+            }
+        ],
+        "Java": [
+            {
+                "name": "OpenJDK",
+                "time": 1.987,
+                "version": "javac 11.0.3\nopenjdk version \"11.0.3\" 2019-04-16\nOpenJDK Runtime Environment (build 11.0.3+4)\nOpenJDK 64-Bit Server VM (build 11.0.3+4, mixed mode)\n"
+            }
+        ],
+        "Python3": [
+            {
+                "name": "CPython",
+                "time": 1.729,
+                "version": "Python 3.7.3\n"
+            },
+            {
+                "name": "PyPy",
+                "time": 3.566,
+                "version": "Python 3.6.1 (784b254d669919c872a505b807db8462b6140973, May 09 2019, 13:17:30)\n[PyPy 7.1.1-beta0 with GCC 8.3.0]\n"
+            }
+        ],
+        "Vala": [
+            {
+                "name": "Vala",
+                "time": 0.427,
+                "version": "Vala 0.44.4\n"
+            }
+        ],
+        "C#": [
+            {
+                "name": "Mono",
+                "time": 0.801,
+                "version": "Mono C# compiler version 5.20.1.0\nMono JIT compiler version 5.20.1 (makepkg/886c4901747 Wed Apr 17 15:49:14 UTC 2019)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tInterpreter:   yes\n\tLLVM:          supported, not enabled.\n\tSuspend:       hybrid\n\tGC:            sgen (concurrent by default)\n"
+            }
+        ],
+        "VisualBasic.NET": [
+            {
+                "name": "Mono",
+                "time": 0.799,
+                "version": "Visual Basic.Net Compiler version 0.0.0.5943 (Mono 4.8 - makepkg/e31cb702)\nMono JIT compiler version 5.20.1 (makepkg/886c4901747 Wed Apr 17 15:49:14 UTC 2019)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tInterpreter:   yes\n\tLLVM:          supported, not enabled.\n\tSuspend:       hybrid\n\tGC:            sgen (concurrent by default)\n"
+            }
+        ],
+        "JavaScript": [
+            {
+                "name": "NodeJS",
+                "time": 1.669,
+                "version": "v11.15.0\n"
+            }
+        ],
+        "D": [],
+        "Swift": [],
+        "Nim": [],
+        "Haskell": [],
+        "Crystal": [
+            {
+                "name": "Crystal",
+                "time": 1.108,
+                "version": "Crystal 0.29.0 (2019-06-06)\n\nLLVM: 6.0.1\nDefault target: x86_64-pc-linux-gnu\n"
+            }
+        ],
+        "Rust": [
+            {
+                "name": "Rust",
+                "time": 0.216,
+                "version": "rustc 1.35.0 (3c235d560 2019-05-20)\n"
+            }
+        ],
+        "PHP": [
+            {
+                "name": "PHP",
+                "time": 0.907,
+                "version": "PHP 7.3.6 (cli) (built: May 28 2019 16:47:07) ( NTS )\nCopyright (c) 1997-2018 The PHP Group\nZend Engine v3.3.6, Copyright (c) 1998-2018 Zend Technologies\n"
+            }
+        ],
+        "Boo": []
+    },
+    "matrix": {
+        "C": [
+            {
+                "name": "GCC",
+                "time": 0.204,
+                "version": "gcc (GCC) 9.1.0\nCopyright (C) 2019 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "Clang",
+                "time": 0.218,
+                "version": "clang version 8.0.0 (tags/RELEASE_800/final)\nTarget: x86_64-pc-linux-gnu\nThread model: posix\nInstalledDir: /usr/bin\n"
+            },
+            {
+                "name": "TCC",
+                "time": 0.856,
+                "version": "tcc version 0.9.27 (x86_64 Linux)\n"
+            }
+        ],
+        "C++": [
+            {
+                "name": "GCC",
+                "time": 0.202,
+                "version": "g++ (GCC) 9.1.0\nCopyright (C) 2019 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+            },
+            {
+                "name": "Clang",
+                "time": 0.221,
+                "version": "clang version 8.0.0 (tags/RELEASE_800/final)\nTarget: x86_64-pc-linux-gnu\nThread model: posix\nInstalledDir: /usr/bin\n"
+            }
+        ],
+        "Java": [
+            {
+                "name": "OpenJDK",
+                "time": 0.252,
+                "version": "javac 11.0.3\nopenjdk version \"11.0.3\" 2019-04-16\nOpenJDK Runtime Environment (build 11.0.3+4)\nOpenJDK 64-Bit Server VM (build 11.0.3+4, mixed mode)\n"
+            }
+        ],
+        "Vala": [
+            {
+                "name": "Vala",
+                "time": 0.218,
+                "version": "Vala 0.44.4\n"
+            }
+        ],
+        "Python3": [
+            {
+                "name": "CPython",
+                "time": 54.48,
+                "version": "Python 3.7.3\n"
+            },
+            {
+                "name": "PyPy",
+                "time": 1.278,
+                "version": "Python 3.6.1 (784b254d669919c872a505b807db8462b6140973, May 09 2019, 13:17:30)\n[PyPy 7.1.1-beta0 with GCC 8.3.0]\n"
+            }
+        ],
+        "D": [
+            {
+                "name": "LDC",
+                "time": 0.195,
+                "version": "LDC - the LLVM D compiler (1.15.0):\n  based on DMD v2.085.1 and LLVM 8.0.0\n  built with LDC - the LLVM D compiler (1.14.0)\n  Default target: x86_64-pc-linux-gnu\n  Host CPU: skylake\n  http://dlang.org - http://wiki.dlang.org/LDC\n\n  Registered Targets:\n    aarch64    - AArch64 (little endian)\n    aarch64_be - AArch64 (big endian)\n    amdgcn     - AMD GCN GPUs\n    arm        - ARM\n    arm64      - ARM64 (little endian)\n    armeb      - ARM (big endian)\n    bpf        - BPF (host endian)\n    bpfeb      - BPF (big endian)\n    bpfel      - BPF (little endian)\n    hexagon    - Hexagon\n    lanai      - Lanai\n    mips       - MIPS (32-bit big endian)\n    mips64     - MIPS (64-bit big endian)\n    mips64el   - MIPS (64-bit little endian)\n    mipsel     - MIPS (32-bit little endian)\n    msp430     - MSP430 [experimental]\n    nvptx      - NVIDIA PTX 32-bit\n    nvptx64    - NVIDIA PTX 64-bit\n    ppc32      - PowerPC 32\n    ppc64      - PowerPC 64\n    ppc64le    - PowerPC 64 LE\n    r600       - AMD GPUs HD2XXX-HD6XXX\n    sparc      - Sparc\n    sparcel    - Sparc LE\n    sparcv9    - Sparc V9\n    systemz    - SystemZ\n    thumb      - Thumb\n    thumbeb    - Thumb (big endian)\n    wasm32     - WebAssembly 32-bit\n    wasm64     - WebAssembly 64-bit\n    x86        - 32-bit X86: Pentium-Pro and above\n    x86-64     - 64-bit X86: EM64T and AMD64\n    xcore      - XCore\n"
+            },
+            {
+                "name": "DMD",
+                "time": 0.509,
+                "version": "DMD64 D Compiler v2.086.0\n\nCopyright (C) 1999-2019 by The D Language Foundation, All Rights Reserved written by Walter Bright\n"
+            }
+        ],
+        "VisualBasic.NET": [
+            {
+                "name": "Mono",
+                "time": 162.93,
+                "version": "Visual Basic.Net Compiler version 0.0.0.5943 (Mono 4.8 - makepkg/e31cb702)\nMono JIT compiler version 5.20.1 (makepkg/886c4901747 Wed Apr 17 15:49:14 UTC 2019)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tInterpreter:   yes\n\tLLVM:          supported, not enabled.\n\tSuspend:       hybrid\n\tGC:            sgen (concurrent by default)\n"
+            }
+        ],
+        "C#": [
+            {
+                "name": "Mono",
+                "time": 2.804,
+                "version": "Mono C# compiler version 5.20.1.0\nMono JIT compiler version 5.20.1 (makepkg/886c4901747 Wed Apr 17 15:49:14 UTC 2019)\nCopyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com\n\tTLS:           __thread\n\tSIGSEGV:       altstack\n\tNotifications: epoll\n\tArchitecture:  amd64\n\tDisabled:      none\n\tMisc:          softdebug \n\tInterpreter:   yes\n\tLLVM:          supported, not enabled.\n\tSuspend:       hybrid\n\tGC:            sgen (concurrent by default)\n"
+            }
+        ],
+        "JavaScript": [
+            {
+                "name": "NodeJS",
+                "time": 1.332,
+                "version": "v11.15.0\n"
+            }
+        ],
+        "Haskell": [],
+        "PHP": [
+            {
+                "name": "PHP",
+                "time": 10.02,
+                "version": "PHP 7.3.6 (cli) (built: May 28 2019 16:47:07) ( NTS )\nCopyright (c) 1997-2018 The PHP Group\nZend Engine v3.3.6, Copyright (c) 1998-2018 Zend Technologies\n"
+            }
+        ],
+        "Boo": [],
+        "Rust": [
+            {
+                "name": "Rust",
+                "time": 0.281,
+                "version": "rustc 1.35.0 (3c235d560 2019-05-20)\n"
+            }
+        ]
+    }
+}
